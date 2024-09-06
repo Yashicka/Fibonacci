@@ -1,0 +1,8 @@
+n=int(input("Enter cart value "))
+p=str(input("Enter payment method "))
+if (n>200) and (p=="c"):
+    f=85*n/100
+    print("Total amount to be paid = ", f)
+elif (n>100) and (n<200) and p=="d":
+    f=90*n/100
+    print("Total amount to be paid is ",f)
