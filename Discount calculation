@@ -6,3 +6,5 @@ if (n>200) and (p=="c"):
 elif (n>100) and (n<200) and p=="d":
     f=90*n/100
     print("Total amount to be paid is ",f)
+else:
+    print("Total amount to be paid is ",n)
