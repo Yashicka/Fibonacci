@@ -1,0 +1,12 @@
+c=n=int(input('enter a number'))
+p=0
+l=len(str(n))
+
+for i in range(l,0,-1):
+    a=n%10
+    p=p+a*10**(i-1)
+    n=n//10
+
+if c==p:
+    print('p')
+    
